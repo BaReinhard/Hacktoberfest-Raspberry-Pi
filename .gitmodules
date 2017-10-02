@@ -1,0 +1,3 @@
+[submodule "IoT/PiLock"]
+	path = IoT/PiLock
+	url = https://github.com/kerk12/PiLock
