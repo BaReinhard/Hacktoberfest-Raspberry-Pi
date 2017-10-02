@@ -12,7 +12,8 @@ The following code example is what I'm using:
 Save it to a file and include it in [SCRIPTS] section of /etc/webiopi/config
 ie: GarageSensors = /etc/webiopi/garagesensors
 
-```### Code Begin ###
+```
+### Code Begin ###
 # GarageDoor GPIO Config
 import webiopi
 GPIO = webiopi.GPIO
@@ -32,7 +33,8 @@ def destroy():
 ```
 Add these 2 lines to both the the [GPIO] and [~GPIO] sections of /etc/webiopi/config:
 
-``` 12 = IN 
+``` 
+12 = IN 
 16 = IN 
 ```
 
@@ -43,13 +45,15 @@ Low Trigger 3.3v or 5v signal. Tip: Search for: Relay Module Low Trigger 3.3V/5V
 
 Add these 2 lines to both the the [GPIO] and [~GPIO] sections of /etc/webiopi/config:
 
-```5 = OUT 1
+```
+5 = OUT 1
 6 = OUT 1
 ```
 
 Add these 4 lines to the [ROUTES] section of /etc/webiopi/config:
 
-``` /garage/north/status = /GPIO/12/value
+```
+/garage/north/status = /GPIO/12/value
 /garage/north/button = /GPIO/5/sequence/500,01
 /garage/south/status = /GPIO/16/value
 /garage/south/button = /GPIO/6/sequence/500,01
