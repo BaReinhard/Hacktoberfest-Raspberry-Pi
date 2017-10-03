@@ -10,6 +10,7 @@ A repo to contain raspberry pi scripts and anything to do with the pi.
 * ** Ensure Proper File Structure **
 * Please provide comments where applicable
 * This is for fun, so have some fun!
+* When cloning, use recursive mode: ```git clone --recursive ...```. This ensures that all the submodules get cloned.
 
 ## File Structure
 ```
