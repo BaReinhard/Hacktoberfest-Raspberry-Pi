@@ -1,3 +1,6 @@
 [submodule "IoT/PiLock"]
 	path = IoT/PiLock
 	url = https://github.com/kerk12/PiLock
+[submodule "IoT/GreenPiThumb"]
+	path = IoT/GreenPiThumb
+	url = https://github.com/JeetShetty/GreenPiThumb.git
