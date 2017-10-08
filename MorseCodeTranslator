@@ -40,3 +40,12 @@ def engToMorse():
 
  mess= newmsg 
  print mess
+ 
+def morseToEng():
+
+         print ''.join(CODE_REVERSED.get(i) for i in msg.split())
+
+
+
+if __name__ == "__main__":
+        main()
