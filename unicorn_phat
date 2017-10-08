@@ -5,9 +5,7 @@ import sys
 import time
 import math
 import unicornhat as unicorn
-import subprocess
 
-subprocess.call("sudo python /home/pi/unicorn-phat/mytemp.py", shell=True)
 speed = 0.2
 
 unicorn.set_layout(unicorn.AUTO)
